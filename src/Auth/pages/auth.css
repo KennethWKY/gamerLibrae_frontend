@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+  .auth {
+    margin: 2.5rem 0 !important;
+  }
+}
+
+.auth {
+  font-family: 'DM Sans', sans-serif;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.auth--greeting {
+  font-size: 1.5rem;
+}
+
+.auth--form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth--form--submit {
+  margin-top: 2rem;
+}
+
+.auth--form--textbutton {
+  margin-top: 2rem;
+}
+
+.auth--form--textbutton > * {
+  display: inline;
+}
+
+.auth--form--textbutton > p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.02857em;
+  line-height: 1.75;
+}
+
+.error--msg {
+  margin-top: 2rem;
+}
